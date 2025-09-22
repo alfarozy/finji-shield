@@ -18,7 +18,7 @@ Sebagai solusi alternatif, saya mengembangkan FinjiShield untuk mendeteksi dan m
 Fitur utama
 -----------
 
-* Sync blocklist – Ambil IP dari JSON (misal GitHub raw URL) dan sinkronisasi ke iptables.
+* Sync blocklist – Ambil Abuse IP dari repository (https://github.com/rahulalam31/Laravel-Abuse-IP) dan sinkronisasi ke iptables.
 * Tampilkan IP blocklist dari Nginx log – Lihat IP yang sudah diblokir berdasarkan log Nginx.
 * Tampilkan IP baru yang diblokir – IP yang diblokir sejak update blocklist terakhir.
 * List semua IP yang diblokir – Menampilkan semua IP yang pernah diblokir.
