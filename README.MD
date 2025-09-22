@@ -3,7 +3,7 @@
 FinjiShield
 ===========
 
-**FinjiShield** — Lightweight detection & blocking tool untuk server Debian (fokus: Nginx + SSH). Mendeteksi aktivitas berbahaya (sensitive path scans, 404 flood, request flood/brute-force pada Nginx, brute-force SSH) dan otomatis mem-block IP lewat `iptables`. Dilengkapi menu interaktif, opsi manual, dan sinkronisasi blocklist dari JSON remote.
+**FinjiShield** — Lightweight detection & blocking tool untuk server Debian (fokus: Nginx). Mendeteksi aktivitas berbahaya seperti sensitive path scans, 404 flood, dan brute-force request pada Nginx, serta otomatis memblokir IP lewat iptables. Dilengkapi menu interaktif, opsi manual block/unblock, dan sinkronisasi blocklist Abuse IP.
 
 
 > **PENTING:** sebelum menjalankan, isi `ADMIN_IP` pada script agar IP management/jump-host tidak ikut terbanned.
